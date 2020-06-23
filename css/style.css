@@ -1,5 +1,6 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Light';
+	font-size: 18px;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #656c6d;
@@ -15,13 +16,13 @@ h1 strong {
 h2 {
 	line-height: 20px;
 	margin: 0;
-	color: #ff6501;
+	color: #ffcb3c;
 	font-weight: 400;
 	margin-bottom: 30px;
 	font-size: 34px;
 }
 h3, h4 {
-	color: #ff6501;
+	color: #ffcb3c;
 	font-size: 20px;
 	font-weight: 600;
 }
@@ -34,14 +35,14 @@ p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Light';
 }
 a {
 	color: #333;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #7bc3d1;
+	color: #FFD700;
 }
 ul, ol {
 	list-style: none;
@@ -73,7 +74,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #FFD700;
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -89,7 +90,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #ff6501;
+	background-color: #ffcb3c;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -119,13 +120,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #7bc3d1;
+	color: #FFD700;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #7bc3d1;
+	color: #FFD700;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -147,20 +148,20 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #ff6501;
-	border-color: #ff6501;
+	background-color: #ffcb3c;
+	border-color: #ffcb3c;
 }
 .btn-primary {
 	color: #fff;
-	background-color: #ff6501;
+	background-color: #ffcb3c;
 	padding: 10px 20px;
-	border-color: #ff6501;
+	border-color: #ffcb3c;
 	border-radius: 0;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active {
 	color: #fff;
-	background-color: #7bc3d1;
-	border-color: #7bc3d1;
+	background-color: #FFD700;
+	border-color: #FFD700;
 }
 .btn-primary i.fa {
 	margin-right: 10px;
@@ -172,9 +173,10 @@ hr {
 	height: auto;
 	padding: 100px 0;
 	text-align: center;
+	font-weight: 300;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
-	background-color: #7bc3d1;
+	background: url(../img/silver.jpg) no-repeat center top;
+	background-color: #FFD700;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -204,7 +206,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #FFD700;
 }
 #skills h2 {
 	color: #fff;
@@ -237,7 +239,7 @@ hr {
 .percent {
 	display: inline-block;
 	font-size: 21px;
-	color: #121d1f;
+	color: #606060;
 	line-height: 152px;
 	z-index: 2;
 }
@@ -259,7 +261,7 @@ hr {
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
 .categories {
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 	text-align: center;
 }
 ul.cat li {
@@ -270,7 +272,7 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	background: #7bc3d1;
+	background: #FFD700;
 	color: #fff;
 	padding: 6px 14px;
 }
@@ -477,8 +479,9 @@ ol.type li a:hover {
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #629ca7;
+	color: #606060;
 	font-size: 20px;
+	font-family: 'Roboto';
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
@@ -487,7 +490,7 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #FFD700;
 }
 #contact h2 {
 	color: #fff;
@@ -515,7 +518,7 @@ ol.type li a:hover {
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Light';
 	float: left;
 }
 #contact .form-control {
@@ -627,7 +630,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	max-width: 75%;
 }
 .intro .intro-text p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto Light';
 	font-size: 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
